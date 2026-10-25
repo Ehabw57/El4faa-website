@@ -1,0 +1,525 @@
+<!DOCTYPE html><html dir="rtl" lang="ar" style="width: 1280px; height: 1818px; overflow: hidden; position: relative;"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-surface-variant":"#3f4942","secondary-fixed":"#ffdead","primary-container":"#1b7a52","secondary-container":"#fdc668","surface-dim":"#d4daea","background":"#f9f9ff","tertiary-fixed":"#abf2c8","surface-container-highest":"#dde2f3","error-container":"#ffdad6","on-secondary-container":"#765100","on-secondary-fixed":"#281900","tertiary-container":"#337856","surface-container-high":"#e3e8f9","surface-container-lowest":"#ffffff","on-surface":"#161c27","on-tertiary-fixed":"#002112","tertiary":"#155f3f","inverse-surface":"#2a303d","on-tertiary-container":"#b6fdd3","surface":"#f9f9ff","surface-container":"#e8eeff","inverse-on-surface":"#ecf0ff","primary-fixed-dim":"#80d8a9","on-background":"#161c27","on-secondary-fixed-variant":"#604100","on-tertiary-fixed-variant":"#005233","on-error-container":"#93000a","surface-container-low":"#f1f3ff","on-tertiary":"#ffffff","on-primary-fixed-variant":"#005234","outline":"#6f7a71","inverse-primary":"#80d8a9","primary":"#00603d","error":"#ba1a1a","outline-variant":"#bec9c0","on-primary-container":"#acffd0","secondary":"#7e5700","on-secondary":"#ffffff","on-error":"#ffffff","secondary-fixed-dim":"#f4bd61","on-primary":"#ffffff","surface-bright":"#f9f9ff","surface-tint":"#006c46","primary-fixed":"#9cf5c3","surface-variant":"#dde2f3","on-primary-fixed":"#002112","tertiary-fixed-dim":"#8fd5ad"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-md":"1rem","gutter-mobile":"0.75rem","space-xl":"2.5rem","space-xs":"0.25rem","gutter":"1.25rem","margin":"2rem","space-lg":"1.5rem","margin-mobile":"1rem","space-sm":"0.5rem"},"fontFamily":{"headline-lg-mobile":["IBM Plex Sans"],"display-lg-mobile":["IBM Plex Sans"],"label-md":["IBM Plex Sans"],"display-lg":["IBM Plex Sans"],"headline-md":["IBM Plex Sans"],"headline-lg":["IBM Plex Sans"],"body-md":["IBM Plex Sans"],"headline-sm":["IBM Plex Sans"],"label-sm":["IBM Plex Sans"],"body-lg":["IBM Plex Sans"],"label-lg":["IBM Plex Sans"],"body-sm":["IBM Plex Sans"]},"fontSize":{"headline-lg-mobile":["24px",{"lineHeight":"36px","fontWeight":"600"}],"display-lg-mobile":["30px",{"lineHeight":"42px","letterSpacing":"0","fontWeight":"700"}],"label-md":["12px",{"lineHeight":"18px","fontWeight":"600"}],"display-lg":["44px",{"lineHeight":"60px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"36px","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"46px","fontWeight":"700"}],"body-md":["16px",{"lineHeight":"28px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"30px","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"16px","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"32px","fontWeight":"400"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"24px","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed right-0 top-0 h-full w-72 bg-surface-container-lowest z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="p-space-lg flex flex-col gap-space-xs"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded bg-primary-container flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary-container text-[20px]">local_hospital</span></div><div class="flex flex-col min-w-0"><h1 class="font-label-lg text-label-lg text-on-surface font-semibold truncate leading-tight">مجمع الشفاء الطبي</h1><span class="font-label-sm text-label-sm text-on-surface-variant truncate">ومسجد المدينة المنورة</span></div></div><div class="mt-space-xs"><span class="inline-flex items-center px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-sm text-label-sm">لوحة الإدارة</span></div></div><nav class="flex flex-col gap-space-xs px-space-md mt-space-sm" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded"><a class="flex items-center gap-space-sm px-space-md py-space-sm text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded transition-colors font-label-lg text-label-lg" data-path="dashboard-overview" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span class="">لوحة الملخص</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded transition-colors font-label-lg text-label-lg" data-path="current-needs" href="#"><span class="material-symbols-outlined text-[20px]">checklist</span><span class="">الاحتياجات الحالية</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded transition-colors font-label-lg text-label-lg" data-path="project-milestones" href="#"><span class="material-symbols-outlined text-[20px]">engineering</span><span class="">مراحل التنفيذ</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded transition-colors font-label-lg text-label-lg" data-path="news-updates" href="#"><span class="material-symbols-outlined text-[20px]">campaign</span><span class="">الأخبار والتحديثات</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface rounded transition-colors font-label-lg text-label-lg" data-path="media-gallery" href="#"><span class="material-symbols-outlined text-[20px]">photo_library</span><span class="">مكتبة الصور</span></a></nav></div><div class="p-space-md"><div class="pt-space-sm"><a class="flex items-center gap-space-sm px-space-md py-space-sm text-on-surface-variant hover:bg-error-container hover:text-on-error-container rounded transition-colors font-label-lg text-label-lg" data-path="admin-logout" href="#"><span class="material-symbols-outlined text-[20px]">logout</span><span class="">تسجيل الخروج</span></a></div></div></aside><div class="pr-72"><header class="fixed top-0 right-72 left-0 h-16 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-xl"><div class="flex items-center gap-space-sm"><span class="font-label-md text-label-md text-on-surface-variant">إدارة جمعية أبناء عقيل</span></div><div class="flex items-center gap-space-md"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 w-full min-h-screen bg-surface px-space-xl py-space-lg"><div class="flex flex-col w-full">
+<!-- Top Level Header (Administrative Context) -->
+<header class="flex flex-col md:flex-row md:items-center md:justify-between gap-space-md mb-space-xl">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm flex-wrap">
+<h2 class="font-headline-lg text-headline-lg text-on-surface">لوحة الملخص</h2>
+
+
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+        مرحبًا بك، يمكنك إدارة محتوى المشروع ومتابعة آخر التعديلات من هنا.
+      </p>
+</div>
+<!-- Quick Direct Status Indicator -->
+
+</header>
+<!-- Quick Actions Section ('إجراءات سريعة') -->
+<section class="flex flex-col gap-space-md mb-space-xl">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-1.5 h-4 bg-primary rounded-full inline-block"></span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">إجراءات سريعة</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">عمليات التحرير المباشرة</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Action 1: إضافة احتياج -->
+<a class="group relative flex flex-col justify-between p-space-lg bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5" data-path="current-needs" href="#">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-primary flex items-center justify-center group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+<span class="material-symbols-outlined text-[26px]">post_add</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">إضافة احتياج</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">أضف مادة أو بندًا يحتاج إليه المشروع.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center text-primary font-label-md text-label-md gap-1">
+<span class="">بدء الإدخال</span>
+<span class="material-symbols-outlined text-[18px] transform group-hover:-translate-x-1 transition-transform">arrow_left_alt</span>
+</div>
+</a>
+<!-- Action 2: إضافة تحديث تنفيذ -->
+<a class="group relative flex flex-col justify-between p-space-lg bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5" data-path="project-milestones" href="#">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-secondary flex items-center justify-center group-hover:bg-secondary-container group-hover:text-on-secondary-container transition-colors">
+<span class="material-symbols-outlined text-[26px]">engineering</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">إضافة تحديث تنفيذ</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">وثّق مرحلة جديدة من أعمال المشروع الميدانية.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center text-secondary font-label-md text-label-md gap-1">
+<span class="">توثيق مرحلة</span>
+<span class="material-symbols-outlined text-[18px] transform group-hover:-translate-x-1 transition-transform">arrow_left_alt</span>
+</div>
+</a>
+<!-- Action 3: إضافة خبر -->
+<a class="group relative flex flex-col justify-between p-space-lg bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5" data-path="news-updates" href="#">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-tertiary flex items-center justify-center group-hover:bg-tertiary-container group-hover:text-on-tertiary-container transition-colors">
+<span class="material-symbols-outlined text-[26px]">campaign</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">إضافة خبر</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">أضف خبرًا أو إعلانًا رسميًا عن تطورات المشروع.</p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center text-tertiary font-label-md text-label-md gap-1">
+<span class="">صياغة الخبر</span>
+<span class="material-symbols-outlined text-[18px] transform group-hover:-translate-x-1 transition-transform">arrow_left_alt</span>
+</div>
+</a>
+<!-- Action 4: رفع صور -->
+<a class="group relative flex flex-col justify-between p-space-lg bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-all duration-200 hover:-translate-y-0.5" data-path="media-gallery" href="#">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-surface-container-low text-on-surface-variant flex items-center justify-center group-hover:bg-surface-container-high group-hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined text-[26px]">add_photo_alternate</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">رفع صور</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">أضف صورًا إلى مكتبة الصور لاستخدامها في المحتوى.</p>
+<p class="text-[11px] leading-[17px] text-on-surface-variant/80 bg-surface-container-low p-2 rounded">
+            الصور تُحفظ في المكتبة المركزية المشتركة وتصبح جاهزة للإدراج عند الحاجة دون نشر تلقائي.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm flex items-center text-on-surface-variant group-hover:text-on-surface font-label-md text-label-md gap-1">
+<span class="">فتح الوسائط</span>
+<span class="material-symbols-outlined text-[18px] transform group-hover:-translate-x-1 transition-transform">arrow_left_alt</span>
+</div>
+</a>
+</div>
+</section>
+<!-- Central Image Library Awareness Strip / Hint -->
+<section class="mb-space-xl">
+<div class="relative overflow-hidden bg-surface-container-low rounded-xl p-space-lg shadow-sm">
+<div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md relative z-10">
+<div class="flex items-start gap-space-md max-w-3xl">
+<div class="w-10 h-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[22px]">photo_library</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-label-lg text-label-lg text-on-surface font-semibold">مكتبة الصور المركزية</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              الصور المرفوعة تُحفظ في مكتبة الصور لإعادة استخدامها عبر التحديثات والأخبار دون تكرار الرفع. نشر أو إخفاء المحتوى لا يؤثر على الملف الأصلي بالمكتبة، مما يضمن سلامة الأرشيف الميداني.
+            </p>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 px-space-md py-space-xs bg-surface-container-lowest text-primary rounded-lg font-label-md text-label-md shadow-sm hover:bg-surface-container-high transition-colors shrink-0" data-path="media-gallery" href="#">
+<span class="">استعراض الأرشيف المركزي</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+<!-- Subtle watermark decoration -->
+<span class="material-symbols-outlined absolute -left-6 -bottom-6 text-[120px] text-surface-container-high/40 select-none pointer-events-none">imagesmode</span>
+</div>
+</section>
+<!-- Recent Activity Section ('آخر التعديلات') -->
+<section class="flex flex-col gap-space-md mb-space-xl">
+<!-- Header of the Table and Controls -->
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="w-1.5 h-4 bg-tertiary rounded-full inline-block"></span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">آخر التعديلات</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">أحدث السجلات التي تم تعديلها أو نشرها على الموقع الميداني.</p>
+</div>
+<!-- State Simulator Switch (for testing empty state) -->
+<div class="flex items-center gap-space-xs bg-surface-container-low p-1 rounded-lg">
+<button class="px-space-sm py-1 rounded font-label-sm text-label-sm transition-all bg-surface-container-lowest text-on-surface shadow-sm" id="btn-show-data" onclick="toggleDashboardState('data')">
+          عرض السجلات
+        </button>
+<button class="px-space-sm py-1 rounded font-label-sm text-label-sm transition-all text-on-surface-variant hover:text-on-surface" id="btn-show-empty" onclick="toggleDashboardState('empty')">
+          عرض الحالة الفارغة (بدون تعديلات)
+        </button>
+</div>
+</div>
+<!-- Active Records View (Table Desktop + Responsive Card Stack) -->
+<div class="flex flex-col" id="view-records-container">
+<!-- Desktop Table (hidden on mobile, visible md+) -->
+<div class="hidden md:block bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<table class="w-full text-right border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md">
+<th class="py-space-md px-space-lg font-semibold">العنوان</th>
+<th class="py-space-md px-space-md font-semibold">نوع المحتوى</th>
+<th class="py-space-md px-space-md font-semibold">آخر تعديل</th>
+<th class="py-space-md px-space-md font-semibold">الحالة</th>
+<th class="py-space-md px-space-lg font-semibold text-left">الإجراء المباشر</th>
+</tr>
+</thead>
+<tbody class="divide-y-0 text-on-surface font-body-sm text-body-sm">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded bg-primary/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">checklist</span>
+</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg font-semibold truncate text-on-surface">حديد تسليح 12 مم و16 مم (لطابق مجمع الشفاء)</span>
+<span class="text-[12px] text-on-surface-variant font-mono">ID: N-2024-089</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+                  احتياج
+                </span>
+</td>
+<td class="py-space-md px-space-md text-on-surface-variant">
+                منذ ساعتين
+              </td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-primary-container/15 text-primary-container font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                  منشور
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-left">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="px-space-sm py-1 bg-surface-container-low hover:bg-surface-container-high text-on-surface rounded font-label-md text-label-md transition-colors" type="button">
+                    تعديل
+                  </button>
+<button class="px-space-sm py-1 bg-surface-container-low hover:bg-error-container hover:text-on-error-container text-on-surface-variant rounded font-label-md text-label-md transition-colors" onclick="confirmVisibilityToggle('حديد تسليح 12 مم و16 مم', 'hide')" title="إخفاء عن الجمهور فوراً" type="button">
+                    إخفاء
+                  </button>
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors" title="معاينة في الموقع" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="bg-surface-container-low/20 hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded bg-secondary/10 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">foundation</span>
+</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg font-semibold truncate text-on-surface">استكمال أعمال النجارة والحدادة المسلحة لأعمدة الطابق الأرضي</span>
+<span class="text-[12px] text-on-surface-variant font-mono">ID: M-2024-034</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-secondary/10 text-secondary font-label-sm text-label-sm font-medium">
+                  مرحلة تنفيذ
+                </span>
+</td>
+<td class="py-space-md px-space-md text-on-surface-variant">
+                أمس، 04:15 م
+              </td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-primary-container/15 text-primary-container font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                  منشور
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-left">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="px-space-sm py-1 bg-surface-container-low hover:bg-surface-container-high text-on-surface rounded font-label-md text-label-md transition-colors" type="button">
+                    تعديل
+                  </button>
+<button class="px-space-sm py-1 bg-surface-container-low hover:bg-error-container hover:text-on-error-container text-on-surface-variant rounded font-label-md text-label-md transition-colors" onclick="confirmVisibilityToggle('استكمال أعمال النجارة والحدادة المسلحة', 'hide')" title="إخفاء عن الجمهور فوراً" type="button">
+                    إخفاء
+                  </button>
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors" title="معاينة في الموقع" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded bg-tertiary/10 text-tertiary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">article</span>
+</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg font-semibold truncate text-on-surface">وصول دفعة جديدة من حديد التسليح المعتمد للموقع</span>
+<span class="text-[12px] text-on-surface-variant font-mono">ID: P-2024-012</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-tertiary/10 text-tertiary font-label-sm text-label-sm font-medium">
+                  خبر
+                </span>
+</td>
+<td class="py-space-md px-space-md text-on-surface-variant">
+                15 يناير 2024
+              </td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-primary-container/15 text-primary-container font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+                  منشور
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-left">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="px-space-sm py-1 bg-surface-container-low hover:bg-surface-container-high text-on-surface rounded font-label-md text-label-md transition-colors" type="button">
+                    تعديل
+                  </button>
+<button class="px-space-sm py-1 bg-surface-container-low hover:bg-error-container hover:text-on-error-container text-on-surface-variant rounded font-label-md text-label-md transition-colors" onclick="confirmVisibilityToggle('وصول دفعة جديدة من حديد التسليح', 'hide')" title="إخفاء عن الجمهور فوراً" type="button">
+                    إخفاء
+                  </button>
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors" title="معاينة في الموقع" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4 (Hidden Content Example) -->
+<tr class="bg-surface-container-low/40 hover:bg-surface-container-low/70 transition-colors">
+<td class="py-space-md px-space-lg">
+<div class="flex items-center gap-space-sm">
+<span class="w-8 h-8 rounded bg-on-surface-variant/10 text-on-surface-variant flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">inventory_2</span>
+</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg font-semibold truncate text-on-surface">أسمنت بورتلاندي مسلح (خاص بخرسانة صب الأعمدة)</span>
+<span class="text-[12px] text-on-surface-variant font-mono">ID: N-2024-077</span>
+</div>
+</div>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-primary/10 text-primary font-label-sm text-label-sm font-medium">
+                  احتياج
+                </span>
+</td>
+<td class="py-space-md px-space-md text-on-surface-variant">
+                12 يناير 2024
+              </td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+                  مخفي
+                </span>
+</td>
+<td class="py-space-md px-space-lg text-left">
+<div class="flex items-center justify-end gap-space-xs">
+<button class="px-space-sm py-1 bg-surface-container-low hover:bg-surface-container-high text-on-surface rounded font-label-md text-label-md transition-colors" type="button">
+                    تعديل
+                  </button>
+<button class="px-space-sm py-1 bg-primary text-on-primary hover:bg-primary-container rounded font-label-md text-label-md transition-colors" onclick="confirmVisibilityToggle('أسمنت بورتلاندي مسلح', 'publish')" title="إظهار السجل مباشرة للجمهور" type="button">
+                    إظهار للجمهور
+                  </button>
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors" title="معاينة في الموقع" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Mobile Cards Fallback (visible on small screens) -->
+<div class="grid grid-cols-1 gap-space-sm md:hidden">
+<!-- Card 1 -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-primary/10 text-primary font-label-sm text-label-sm font-medium">احتياج</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-container/15 text-primary-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+              منشور
+            </span>
+</div>
+<h4 class="font-label-lg text-label-lg font-semibold text-on-surface">حديد تسليح 12 مم و16 مم (لطابق مجمع الشفاء)</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">آخر تعديل: منذ ساعتين</span>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="flex-1 py-1.5 bg-surface-container-low text-on-surface rounded font-label-md text-label-md">تعديل</button>
+<button class="flex-1 py-1.5 bg-surface-container-low text-error rounded font-label-md text-label-md" onclick="confirmVisibilityToggle('حديد تسليح 12 مم و16 مم', 'hide')">إخفاء</button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-secondary/10 text-secondary font-label-sm text-label-sm font-medium">مرحلة تنفيذ</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-container/15 text-primary-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+              منشور
+            </span>
+</div>
+<h4 class="font-label-lg text-label-lg font-semibold text-on-surface">استكمال أعمال النجارة والحدادة المسلحة لأعمدة الطابق الأرضي</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">آخر تعديل: أمس، 04:15 م</span>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="flex-1 py-1.5 bg-surface-container-low text-on-surface rounded font-label-md text-label-md">تعديل</button>
+<button class="flex-1 py-1.5 bg-surface-container-low text-error rounded font-label-md text-label-md" onclick="confirmVisibilityToggle('استكمال أعمال النجارة والحدادة', 'hide')">إخفاء</button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-tertiary/10 text-tertiary font-label-sm text-label-sm font-medium">خبر</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-container/15 text-primary-container font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+              منشور
+            </span>
+</div>
+<h4 class="font-label-lg text-label-lg font-semibold text-on-surface">وصول دفعة جديدة من حديد التسليح المعتمد للموقع</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">آخر تعديل: 15 يناير 2024</span>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="flex-1 py-1.5 bg-surface-container-low text-on-surface rounded font-label-md text-label-md">تعديل</button>
+<button class="flex-1 py-1.5 bg-surface-container-low text-error rounded font-label-md text-label-md" onclick="confirmVisibilityToggle('وصول دفعة جديدة', 'hide')">إخفاء</button>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-sm">
+<span class="inline-flex items-center px-2 py-0.5 rounded bg-primary/10 text-primary font-label-sm text-label-sm font-medium">احتياج</span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+              مخفي
+            </span>
+</div>
+<h4 class="font-label-lg text-label-lg font-semibold text-on-surface">أسمنت بورتلاندي مسلح (خاص بخرسانة صب الأعمدة)</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">آخر تعديل: 12 يناير 2024</span>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="flex-1 py-1.5 bg-surface-container-low text-on-surface rounded font-label-md text-label-md">تعديل</button>
+<button class="flex-1 py-1.5 bg-primary text-on-primary rounded font-label-md text-label-md" onclick="confirmVisibilityToggle('أسمنت بورتلاندي مسلح', 'publish')">إظهار للجمهور</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Empty State Container (Simulated / Toggleable) -->
+<div class="hidden flex-col items-center justify-center p-space-xl bg-surface-container-lowest rounded-xl shadow-sm text-center" id="view-empty-state">
+<div class="w-16 h-16 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant mb-space-md">
+<span class="material-symbols-outlined text-[32px]">manage_history</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">لا توجد تعديلات حديثة حتى الآن</h4>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mb-space-lg">
+        ستظهر هنا آخر التعديلات التي تجريها على محتوى المشروع فور تنفيذها، مع إمكانية التعديل والإخفاء المباشر.
+      </p>
+<div class="flex items-center gap-space-sm">
+<a class="px-space-md py-space-sm bg-primary text-on-primary rounded font-label-lg text-label-lg shadow-sm hover:bg-primary-container transition-colors" data-path="current-needs" href="#">
+          إضافة أول محتوى
+        </a>
+</div>
+</div>
+</section>
+<!-- Photographic Documentation Context Card -->
+<section class="grid grid-cols-1 lg:grid-cols-3 gap-space-md">
+<div class="lg:col-span-2 relative overflow-hidden bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col md:flex-row gap-space-lg items-center">
+<img class="w-full md:w-48 h-40 object-cover rounded-lg shrink-0" data-alt="A clean, professional close-up architectural photograph of a serene civic construction site in Upper Egypt with concrete structures and natural desert daylight, soft neutral tones, sharp focus, high aesthetic dignity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNlkvwoGH0oRqsu6AqVynr1hk2Xu4mHDBga4W8s8Xpr11uvFW6-SKivb6ob9WtU8kvvRYBzcCMD2vF4hkrchBapdwPYF0lKTlswo-jxA1qZyppeTIjnL_3qc-INOWIv5Oum-2so4QgO5XV0biaK8OA3WUou69ykWDkJCzu9XdMo14szHyGHsmIuBI9wSl7viSXXrLVPdLwS7T5uNEx1CuPGuNA-Z6UufrF9NBLpcY">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span class="">قرية العليقات - مركز قوص، محافظة قنا</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">إشراف جمعية أبناء عقيل</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          كافة التعديلات والتحديثات التي تنشرها تنعكس مباشرة في النسخة العامة لتمكين الأهالي من الاطلاع الميداني الدقيق والموثق بالصور على مراحل إنشاء المسجد والمجمع الطبي.
+        </p>
+</div>
+</div>
+<!-- System Philosophy & Publishing Rule -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface font-label-lg text-label-lg">
+<span class="material-symbols-outlined text-primary text-[20px]">policy</span>
+<span class="">آلية النشر المباشر</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          لا توجد طوابير مراجعة معقدة؛ التعديلات تظهر فوراً للجمهور، ويمكن في أي وقت إعادة السجل لحالة "مخفي" بنقرة واحدة عند تدقيق البيانات.
+        </p>
+</div>
+<div class="pt-space-md flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span class="">تحديث النظام التلقائي</span>
+<span class="font-mono">v2.4.0 (مستقر)</span>
+</div>
+</div>
+</section>
+<!-- Interactive Confirmation Dialog (Modal simulation for direct Toggle) -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm hidden items-center justify-center p-space-md" id="visibility-modal">
+<div class="bg-surface-container-lowest max-w-md w-full rounded-xl shadow-xl p-space-xl flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-low flex items-center justify-center text-primary" id="modal-icon-wrapper">
+<span class="material-symbols-outlined text-[24px]" id="modal-icon">visibility_off</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h4 class="font-headline-sm text-headline-sm text-on-surface" id="modal-title">تأكيد تعديل الظهور</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="modal-desc">
+          هل أنت متأكد من تغيير حالة ظهور هذا العنصر على الموقع الميداني للجمهور؟
+        </p>
+</div>
+<div class="flex items-center justify-end gap-space-sm pt-space-sm">
+<button class="px-space-md py-space-xs bg-surface-container-low hover:bg-surface-container text-on-surface rounded font-label-md text-label-md transition-colors" onclick="closeVisibilityModal()">
+          إلغاء
+        </button>
+<button class="px-space-md py-space-xs bg-primary hover:bg-primary-container text-on-primary rounded font-label-md text-label-md transition-colors" id="modal-action-btn" onclick="executeVisibilityToggle()">
+          تأكيد
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  function toggleDashboardState(state) {
+    var recordsContainer = document.getElementById('view-records-container');
+    var emptyContainer = document.getElementById('view-empty-state');
+    var btnData = document.getElementById('btn-show-data');
+    var btnEmpty = document.getElementById('btn-show-empty');
+
+    if (state === 'empty') {
+      recordsContainer.classList.add('hidden');
+      emptyContainer.classList.remove('hidden');
+      emptyContainer.classList.add('flex');
+
+      btnEmpty.classList.add('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+      btnEmpty.classList.remove('text-on-surface-variant');
+
+      btnData.classList.remove('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+      btnData.classList.add('text-on-surface-variant');
+    } else {
+      recordsContainer.classList.remove('hidden');
+      emptyContainer.classList.add('hidden');
+      emptyContainer.classList.remove('flex');
+
+      btnData.classList.add('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+      btnData.classList.remove('text-on-surface-variant');
+
+      btnEmpty.classList.remove('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+      btnEmpty.classList.add('text-on-surface-variant');
+    }
+  }
+
+  var currentTargetItem = null;
+  var currentActionType = null;
+
+  function confirmVisibilityToggle(itemTitle, action) {
+    currentTargetItem = itemTitle;
+    currentActionType = action;
+
+    var modal = document.getElementById('visibility-modal');
+    var modalTitle = document.getElementById('modal-title');
+    var modalDesc = document.getElementById('modal-desc');
+    var modalActionBtn = document.getElementById('modal-action-btn');
+    var modalIcon = document.getElementById('modal-icon');
+
+    if (action === 'hide') {
+      modalTitle.textContent = 'إخفاء العنصر عن الجمهور';
+      modalDesc.textContent = 'هل أنت متأكد من إخفاء: "' + itemTitle + '"؟ لن يظهر للزوار على الواجهة العامة حتى تقوم بإعادة إظهاره.';
+      modalActionBtn.textContent = 'نعم، إخفاء السجل';
+      modalIcon.textContent = 'visibility_off';
+    } else {
+      modalTitle.textContent = 'إظهار العنصر للجمهور';
+      modalDesc.textContent = 'هل أنت متأكد من إظهار: "' + itemTitle + '" مباشرة على الموقع العام؟';
+      modalActionBtn.textContent = 'نعم، إظهار الآن';
+      modalIcon.textContent = 'visibility';
+    }
+
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+  }
+
+  function closeVisibilityModal() {
+    var modal = document.getElementById('visibility-modal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }
+
+  function executeVisibilityToggle() {
+    closeVisibilityModal();
+  }
+</script></main></div>
+
+</body></html>
