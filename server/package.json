@@ -1,0 +1,13 @@
+{
+  "name": "@el4faa/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node index.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "preact": "^10.27.2",
+    "preact-render-to-string": "^6.5.13"
+  }
+}

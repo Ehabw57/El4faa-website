@@ -112,32 +112,29 @@ Express مسؤول عن:
 التنظيم المقترح:
 
 repository/
-- apps/
-  - server/
-    - src/
-      - app/
-      - api/
-      - auth/
-      - content/
-      - media/
-      - database/
-      - public-ssr/
-      - shared/
-    - tests/
-  - admin/
-    - src/
-      - app/
-      - components/
-      - features/
-      - services/
-      - layouts/
-      - styles/
-    - tests/
+- server/
+  - src/
+    - api/
+    - auth/
+    - content/
+    - media/
+    - database/
+    - public-ssr/
+    - shared/
+- admin/
+  - src/
+    - components/
+    - features/
+    - services/
+    - layouts/
+    - styles/
 - packages/
   - contracts/
   - design-system/
 - docs/
-- scripts/
+- ui/
+  - admin
+  - public
 - package.json
 - package-lock.json
 - README.md
@@ -156,9 +153,7 @@ repository/
 - TypeScript.
 - MongoDB Atlas كبداية.
 - Driver رسمي أو ODM معتمد بعد اختبار ملاءمته.
-- Zod للتحقق من المدخلات، أو حل موحد مكافئ.
 - Session-based Authentication.
-- OpenAPI لتوثيق REST API.
 
 ## Public Website
 - React.
@@ -210,6 +205,8 @@ packages/design-system/global.css
 - الظلال عند الحاجة.
 - Tokens الخاصة بالحالات.
 - قواعد RTL الأساسية المناسبة.
+
+ui/admin ui/public يتواحد بهما شكل الهويه الخاصه بصفحات بصيغه html
 
 يُستخدم Tailwind CSS v4 في التطبيقين.
 
@@ -518,22 +515,6 @@ packages/design-system/global.css
 اذكر ما نُفذ، والملفات المتغيرة، والاختبارات ونتائجها، وأي قيود متبقية.
 
 إذا احتجت قرارًا معماريًا أو أمنيًا مؤثرًا، توقف واسأل قبل التنفيذ.
-ame
-- format
-- width
-- height
-- altText (optional)
-- createdAt
-- updatedAt
-
-## Admin
-- _id
-- username
-- passwordHash
-- createdAt
-- updatedAt
-
-يُراجع النموذج النهائي عند التنفيذ.
 
 يُفضل تخزين علاقات استخدام الصور بطريقة قابلة للفهرسة والاستعلام، وعدم الاكتفاء بمصفوفات غير منضبطة يصعب التحقق منها.
 

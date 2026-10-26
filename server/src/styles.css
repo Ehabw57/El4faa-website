@@ -1,0 +1,196 @@
+@import "tailwindcss" source("../");
+
+@theme {
+  --font-arabic:
+    "IBM Plex Sans Arabic",  system-ui, -apple-system,
+    sans-serif;
+
+  /* Colors */
+  --color-surface: #f9f9ff;
+  --color-fuck-me: #0f02ff;
+  --color-surface-dim: #d4daea;
+  --color-surface-bright: #f9f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f1f3ff;
+  --color-surface-container: #e8eeff;
+  --color-surface-container-high: #e3e8f9;
+  --color-surface-container-highest: #dde2f3;
+  --color-surface-variant: #dde2f3;
+  --color-surface-tint: #006c46;
+
+  --color-on-surface: #161c27;
+  --color-on-surface-variant: #3f4942;
+  --color-inverse-surface: #2a303d;
+  --color-inverse-on-surface: #ecf0ff;
+
+  --color-background: #f9f9ff;
+  --color-on-background: #161c27;
+
+  --color-outline: #6f7a71;
+  --color-outline-variant: #bec9c0;
+
+  --color-primary: #00603d;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #1b7a52;
+  --color-on-primary-container: #acffd0;
+  --color-inverse-primary: #80d8a9;
+  --color-primary-fixed: #9cf5c3;
+  --color-primary-fixed-dim: #80d8a9;
+  --color-on-primary-fixed: #002112;
+  --color-on-primary-fixed-variant: #005234;
+
+  --color-secondary: #7e5700;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fdc668;
+  --color-on-secondary-container: #765100;
+  --color-secondary-fixed: #ffdead;
+  --color-secondary-fixed-dim: #f4bd61;
+  --color-on-secondary-fixed: #281900;
+  --color-on-secondary-fixed-variant: #604100;
+
+  --color-tertiary: #155f3f;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #337856;
+  --color-on-tertiary-container: #b6fdd3;
+  --color-tertiary-fixed: #abf2c8;
+  --color-tertiary-fixed-dim: #8fd5ad;
+  --color-on-tertiary-fixed: #002112;
+  --color-on-tertiary-fixed-variant: #005233;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  /* Spacing */
+  --spacing-gutter: 1.25rem;
+  --spacing-gutter-mobile: 0.75rem;
+  --spacing-margin: 2rem;
+  --spacing-margin-mobile: 1rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+
+  /* Typography shortcuts */
+  --font-display-lg: "IBM Plex Sans Arabic", sans-serif;
+  --text-display-lg: 44px;
+  --text-display-lg--line-height: 60px;
+  --text-display-lg--letter-spacing: -0.01em;
+  --text-display-lg--font-weight: 700;
+
+  --text-display-lg-mobile: 30px;
+  --text-display-lg-mobile--line-height: 42px;
+  --text-display-lg-mobile--font-weight: 700;
+
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 46px;
+  --text-headline-lg--font-weight: 700;
+
+  --text-headline-lg-mobile: 24px;
+  --text-headline-lg-mobile--line-height: 36px;
+  --text-headline-lg-mobile--font-weight: 600;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 36px;
+  --text-headline-md--font-weight: 600;
+
+  --text-headline-sm: 20px;
+  --text-headline-sm--line-height: 30px;
+  --text-headline-sm--font-weight: 600;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 32px;
+  --text-body-lg--font-weight: 400;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 28px;
+  --text-body-md--font-weight: 400;
+
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 24px;
+  --text-body-sm--font-weight: 400;
+
+  --text-label-lg: 14px;
+  --text-label-lg--line-height: 20px;
+  --text-label-lg--font-weight: 600;
+
+  --text-label-md: 12px;
+  --text-label-md--line-height: 18px;
+  --text-label-md--font-weight: 600;
+
+  --text-label-sm: 11px;
+  --text-label-sm--line-height: 16px;
+  --text-label-sm--font-weight: 500;
+}
+
+:root {
+  direction: rtl;
+  color-scheme: light;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../public/fonts/IBMPlexSansArabic-Light.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../public/fonts/IBMPlexSansArabic-Thin.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../public/fonts/IBMPlexSansArabic-Regular.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../public/fonts/IBMPlexSansArabic-Medium.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../public/fonts/IBMPlexSansArabic-SemiBold.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../public/fonts/IBMPlexSansArabic-Bold.woff2")
+    format("woff2");
+}
+html {
+  direction: rtl;
+  font-family: var(--font-arabic);
+}
+
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
