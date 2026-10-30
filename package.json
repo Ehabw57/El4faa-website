@@ -1,0 +1,15 @@
+{
+  "name": "el4faa-website",
+  "private": true,
+  "type": "module",
+  "workspaces": ["server", "admin"],
+  "scripts": {
+    "dev": "npm run dev --workspace=server"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.2",
+    "@tailwindcss/vite": "^4.1.14",
+    "tailwindcss": "^4.1.14",
+    "vite": "^6.4.1"
+  }
+}

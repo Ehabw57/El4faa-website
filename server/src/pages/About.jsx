@@ -3,7 +3,7 @@ import SiteLayout from "../components/SiteLayout.jsx";
 export default function About() {
   return (
     <SiteLayout
-      currentPath="/about"
+      currentPath="about"
       title="عن المشروع"
       description="تعرّف على أهداف مجمع الشفاء الطبي ومسجد المدينة المنورة بقرية العليقات."
     >
